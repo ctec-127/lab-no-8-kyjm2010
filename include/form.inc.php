@@ -48,7 +48,7 @@
     </div>
 </form>
 <div id="info">
-    <div class="row mb-5">
+    <div class="row mb-3">
         <div class="accordion col-6">
                 <!-- <div class="col-6"> -->
                 <h1>Formulas</h1>
