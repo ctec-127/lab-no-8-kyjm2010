@@ -105,3 +105,21 @@ nav .dropdown-menu a:hover{
     color: white;
     transition: all .2s ease-in-out;
 }
+
+select{
+    transition: all .2s ease-in-out;
+}
+
+select:hover{
+    transform: scale(1.02);
+    filter: drop-shadow(0px 1px 3px rgb(139, 141, 173));
+}
+
+input.temp{
+    transition: all .1s ease-in-out;
+}
+
+input.temp:hover{
+    transform: scale(1.02);
+    filter: drop-shadow(0px 1px 3px rgb(139, 141, 173));
+}

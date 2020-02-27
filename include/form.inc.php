@@ -18,7 +18,7 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6">
             <label for="temp" class="col-6 col-form-label">Original Temp</label>
-            <input type="text" class="form-control mb-3" value="<?php if (isset($_POST['originaltemp'])) {
+            <input type="text" class="form-control mb-3 temp" value="<?php if (isset($_POST['originaltemp'])) {
                 echo $_POST['originaltemp'];
             }
             ?>" name="originaltemp" size="14" maxlength="7" id="temp">
