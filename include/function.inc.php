@@ -1,4 +1,5 @@
 <?php 
+// Logic to check for POST and grab data from $_P
 // function to calculate converted temperature
 function convertTemp($temp, $unit1, $unit2)
 {
