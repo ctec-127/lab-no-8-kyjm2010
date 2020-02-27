@@ -1,30 +1,87 @@
 /* style.css */
 
 body {
+    background-image: url(../images/vintage.png);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background: #fafafa;
 }
 
 th a:link, th a:visited, th a:hover, th a:active {
     color: #ffffff;
 }
 
-.wrapper{
+.container {
     width: 80vw;
     margin: 0 auto;
+    background: #e0e0e0;
+    padding-bottom: .25em;
 }
 
-h1, h4{
+h1, h4 {
     text-align: center;
     margin-bottom: .5em;
 }
 
-h1{
+h1 {
     margin-top: 1em;
 }
 
-.bg-light{
+.bg-dark {
     background-color: aquamarine;
+}
+
+.mainimg {
+    display: grid;
+    margin: 0 auto;
+    width: 75px;
+    height: 150px;
+}
+
+.jumbotron hr.my-2 {
+    background: rgb(42, 46, 59);
+    background: linear-gradient(90deg, rgba(42, 46, 59, 1) 11%, rgba(252, 199, 69, 1) 60%, rgba(216, 42, 19, 1) 99%);
+    height: .25em;
+}
+
+.jumbotron, .jumbotron h1, .jumbotron p, .jumbotron hr {
+    background-color: #2a2e3b;
+    color: white;
+}
+
+.jumbotron h1 {
+    margin-top: .5em;
+}
+
+.navbar {
+    background-color: #2a2e3b;
+    border-radius: 5px;
+}
+
+nav .navbar-nav li a {
+    color: white !important;
+}
+
+nav .dropdown-menu{
+    background: rgb(31, 31, 41);
+}
+
+.btn-secondary {
+    background-color: #323644;
+}
+
+.acordion, .acordion h1 {
+    background-color: #2a2e3b;
+}
+
+.card {
+    border-radius: 5px;
+}
+
+.card-header {
+    background-color: #2a2e3b;
+}
+
+.card-header button {
+    color: white;
 }

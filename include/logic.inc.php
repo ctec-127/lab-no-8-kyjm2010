@@ -1,7 +1,3 @@
-
-<!-- Form starts here -->
-<form method="POST" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>">
-
 <?php 
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         // Store the original temp and units in variables
@@ -16,6 +12,6 @@
         $conversionUnit = $_POST['conversionunit'];
         $convertedTemp = convertTemp($originalTemperature, $originalUnit, $conversionUnit);
     
-        convertTemp($originalTemperature, $originalUnit, $conversionUnit);
+        // convertTemp($originalTemperature, $originalUnit, $conversionUnit);
     } // end if
 ?>

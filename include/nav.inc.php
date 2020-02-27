@@ -1,5 +1,5 @@
 <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
+    <nav class="navbar navbar-expand-lg navbar-dark mb-5">
         <a class="navbar-brand" href="#">Lab No. 8</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -11,21 +11,18 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href=#info>Formulas and Information</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
+                Tools
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="http://www.rockler.com">Rockler Woodworking</a>
+                <a class="dropdown-item" href="http://www.leevalley.com">Lee Valley Tools</a>
+                <div class="dropdown-divider tex-dark"></div>
+                <a class="dropdown-item" href="http://www.lie-nielsen.com">Lie Nielsen Tools</a>
                 </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
             </li>
             </ul>
         </div>
