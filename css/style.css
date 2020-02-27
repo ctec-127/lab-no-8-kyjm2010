@@ -7,10 +7,6 @@ body {
     padding: 0;
 }
 
-th a:link, th a:visited, th a:hover, th a:active {
-    color: #ffffff;
-}
-
 .container {
     width: 80vw;
     margin: 0 auto;
@@ -27,12 +23,8 @@ h1 {
     margin-top: 1em;
 }
 
-.bg-dark {
-    background-color: aquamarine;
-}
-
 .mainimg {
-    display: grid;
+    display: block;
     margin: 0 auto;
     width: 75px;
     height: 150px;
@@ -64,6 +56,10 @@ nav .navbar-nav li a {
 
 nav .dropdown-menu{
     background: rgb(31, 31, 41);
+}
+
+nav .dropdown-menu a:hover{
+    background-color: #9c9c9c;
 }
 
 .btn-secondary {
