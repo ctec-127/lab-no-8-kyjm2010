@@ -12,6 +12,7 @@
 	require 'include/logic.inc.php';
 	require 'include/nav.inc.php';
 	require 'include/form.inc.php';
+	require 'include/footer.inc.php';
 	?>
 	
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

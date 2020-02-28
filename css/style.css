@@ -128,7 +128,7 @@ input.temp:hover{
 }
 
 .card-header button i{
-    transition: all .1s ease-in-out;
+    transition: .2s ease-in-out;
 }
 
 .card-header button:hover i{
@@ -146,4 +146,13 @@ i {
 .right {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: #2a2e3b;
+    padding-top: 1em;
+    border-radius: 5px;
+    margin-top: 2.5em;
 }
